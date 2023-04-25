@@ -128,9 +128,11 @@ publish/
 *.Publish.xml
 *.pubxml
 
-# NuGet Packages Directory
-## TODO: If you have NuGet Package Restore enabled, uncomment the next line
-#packages/
+# History db
+*.vc.db
+*.vc.db-shm
+*.vc.db-wal
+
 
 # Windows Azure Build Output
 csx
@@ -179,10 +181,6 @@ Desktop.ini
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
-# Mac crap
-.DS_Store
-
-
 #############
 ## Python
 #############
@@ -200,16 +198,3 @@ var/
 sdist/
 develop-eggs/
 .installed.cfg
-
-# Installer logs
-pip-log.txt
-
-# Unit test / coverage reports
-.coverage
-.tox
-
-#Translations
-*.mo
-
-#Mr Developer
-.mr.developer.cfg

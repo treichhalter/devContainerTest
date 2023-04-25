@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "octospi.h": "c",
+        "main.h": "c",
+        "stm32u5xx_hal.h": "c"
+    }
+}
